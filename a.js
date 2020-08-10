@@ -8,7 +8,7 @@ $(function() {
         orientation : 'horizontal',
         animate :'slow',
         slide:function(event,ui){
-            $('#data').val(ui.value);
+            $('#data-value').val(ui.value);
             
                 if (100 >= ui.value && ui.value >= 81 ) {
                         document.getElementById('result-box-a').value = '오늘의 기분은 매우 좋음';
@@ -23,6 +23,8 @@ $(function() {
                     }
                 }
                 });        
-
-            $('#data').val($('#slider-bar').slider('value'));
+        
+            $('#data-value').val($('#slider-bar').slider('value'));
     });
+
+    document.getElementById("data-value").value
