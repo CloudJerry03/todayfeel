@@ -11,6 +11,7 @@ body {
 #contents {
     width:380px;
     text-align:center;
+    height: 400px;
 }
 p {
     margin:20px 0;
@@ -43,3 +44,4 @@ h1 {
     width: 370px;
     text-align: center;
 }
+
