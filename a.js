@@ -18,7 +18,7 @@ $(function() {
 let a = document.getElementById('data')
 const b = document.getElementById('slider-bar') 
 
-b.addEventListener("mouseup",()=> {
+b.addEventListener("mousemove",()=> {
     if (100 >= a.value && a.value >= 81 ) {
             document.getElementById('result-box-a').value = '오늘의 기분은 매우 좋음';
        } else if (81 > a.value && a.value >= 61) {
