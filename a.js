@@ -4,7 +4,7 @@ $(function() {
         min : 0,
         max : 100,
         value :50,
-        step : 25,
+        step : 1,
         orientation : 'horizontal',
         animate :'slow',
         slide:function(event,u){
@@ -18,7 +18,7 @@ $(function() {
 let a = document.getElementById('data')
 const b = document.getElementById('slider-bar') 
 
-b.addEventListener("mouseup",()=> {
+b.addEventListener("click",()=> {
     if (100 >= a.value && a.value >= 81 ) {
             document.getElementById('result-box-a').value = '오늘의 기분은 매우 좋음';
        } else if (81 > a.value && a.value >= 61) {
