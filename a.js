@@ -4,7 +4,7 @@ $(function() {
         min : 0,
         max : 100,
         value :50,
-        step : 1,
+        step : 25,
         orientation : 'horizontal',
         animate :'slow',
         slide:function(event,u){
