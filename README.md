@@ -1,2 +1,2 @@
-# team_some
-# team_some2
+# ㅠㅠㅠ
+### 나 fork 이해를 못했어 ㅠㅠㅠ
